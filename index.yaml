@@ -1,0 +1,23 @@
+apiVersion: v1
+entries:
+  argo-cd:
+  - annotations:
+      artifacthub.io/changes: |
+        - "[Added]: Support separate imagePullSecrets"
+    apiVersion: v1
+    appVersion: v2.3.4
+    created: "2022-06-06T06:01:20.479783189Z"
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 58dee94ee5ad959eb1e7adbd87e7e46f70c122789dcb5bc2e083eb31304ab5db
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    name: argo-cd
+    urls:
+    - argo-cd-4.8.2.tgz
+    version: 4.8.2
+generated: "2022-06-06T06:01:20.472436322Z"
